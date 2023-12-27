@@ -9,5 +9,7 @@ public class Code3StringBuilder {
 
         //Getting String obj from StringBuilder object
         String sbObj = sb.toString(); 
+
+        System.out.println(sbObj);
     }
 }
