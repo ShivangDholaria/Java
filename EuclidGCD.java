@@ -15,5 +15,6 @@ public class EuclidGCD {
                 b -= a;
         }
         System.out.println("GCD of the given 2 number is " + a);
+        s.close();
     }
 }
