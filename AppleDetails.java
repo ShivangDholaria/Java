@@ -1,3 +1,9 @@
+/**
+ * Simple code for understanding the classes and methods
+ * 
+ * @author Shivang Dholaria
+ */
+
 class Apple {
     int xPos, yPos;
     float mass, diameter;
