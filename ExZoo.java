@@ -22,20 +22,38 @@ public class ExZoo {
 
     class Gibbon extends Animal {
         public void speak() {
-            System.out.println("hoot");
+            System.out.print("hoot");
+        }
+    }
+
+    // Ex 2
+    // New Class added
+    class Mouse extends Animal {
+        public void speak() {
+            System.out.print("squeak");
         }
     }
 
     public void listen() {
+
+        //Object creation
         Lion lion = new Lion();
         Gibbon gibbon = new Gibbon();
+        Mouse mouse = new Mouse();
+
+        //Implementing the override functions
         System.out.println("Let's listen to some animals!");
         System.out.print("The lion goes \"");
         lion.speak();
         System.out.println("\"");
+
         System.out.print("The gibbon goes \"");
         gibbon.speak();
-        System.out.print(" \" \n");
+        System.out.println("\"");
+
+        System.out.print("The mouse goes \"");
+        mouse.speak();
+        System.out.println("\"");
     }
 
     public static void main(String args[]) {
