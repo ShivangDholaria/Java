@@ -4,8 +4,6 @@
  *  Along with object interaction and how classes are designed
  * @author Shivang Dholaria
  */
-import java.util.*;
-
 public class ExZoo {
 
     //Inner classes
