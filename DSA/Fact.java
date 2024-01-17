@@ -1,5 +1,3 @@
-//package DSA;
-
 
 public class Fact {
     public long fact(long num) {
