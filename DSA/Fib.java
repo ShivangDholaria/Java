@@ -1,4 +1,6 @@
-
+/**
+ * Fibonacci series program
+ */
 public class Fib {
     
     public long fib(long num) {

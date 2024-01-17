@@ -1,4 +1,6 @@
-
+/**
+ * Factorial program
+ */
 public class Fact {
     public long fact(long num) {
         if(num <= 1)

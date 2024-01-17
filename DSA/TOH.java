@@ -1,3 +1,6 @@
+/**
+ * Tower of Hanoi program
+ */
 public class TOH {
     
     public void toh(int n, char frompeg, char topeg, char auxpeg) {
