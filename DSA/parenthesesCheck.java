@@ -6,11 +6,11 @@ public class parenthesesCheck {
     public static void main(String[] args) {
         Stack<Character> stk = new Stack<Character>();
 
-        int i = 0;
+        int i = 0;                                                      //Counter var
         System.out.println("Enter an expression");
         String inp = new java.util.Scanner(System.in).nextLine();
 
-        while (i < inp.length()) {
+        while (i < inp.length()) {                                      //Logic loop
             char c = inp.charAt(i);
             
             if(c == ')') {
